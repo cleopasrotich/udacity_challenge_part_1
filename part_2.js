@@ -14,4 +14,4 @@ function buildTriangle(dim){
     return triangle;
 }
 
-console.log(buildTriangle(10));
+console.log(buildTriangle(9));

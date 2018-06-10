@@ -14,3 +14,11 @@ for (var i = 0; i < donuts.length; i++) {
   donuts[i] = donuts[i].toUpperCase();
   console.log(donuts[i]);
 }
+
+
+
+var improvedDonuts = donuts.map(function(donut) {
+  donut += " hole";
+  donut = donut.toUpperCase();
+  return donut;
+}
